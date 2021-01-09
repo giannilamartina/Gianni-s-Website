@@ -1,35 +1,112 @@
 body {
   color: black;
-  display: grid;
-  margin: 0;
+  background-color: white;
+
   text-align: center;
-  font-family: "Futura", sans-serif;
+  font-family: "Verdana", sans-serif;
 
 }
 
-p {
-  padding: 0px;
-  line-height: 40px;
+
+div {
+  text-align: center;
+}
+
+ul, li{
+  padding: 0;
+  list-style-type: none;
 }
 
 h1, h2 {
-  padding: 0;
-  margin: 0;
+  color: black;
+  transition: color .25s;
 }
+
+h1:hover, h2:hover {
+  color: red;
+}
+
+a {
+  color: black;
+  transition: color .25s;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+p {
+  line-height: 50px;
+}
+
+/* NAVBAR */
+
+.nav.navbar-nav li a, .navbar-brand {
+  color: black;
+  padding-top: 50px;
+}
+
+.nav.navbar-nav li a:hover, .navbar-brand:hover {
+  transition: .5s;
+  color: red;
+  text-decoration: none;
+}
+
+.navbar-nav > li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#aboutme {
+
+}
+
+#techstack {
+
+}
+
+#resume {
+
+}
+
+#contactme {
+
+}
+
 .header {
-  background-color: #db6400;
-  padding-top: 25px;
-  padding-bottom: 0px;
+
 }
 
 .middle {
-  background-color: #5eaaa8;
-  padding-top: 25px;
-  padding-bottom: 0px;
+
 }
 
 .bottom {
-  background-color: #a3d2ca;
-  padding-top: 25px;
-  padding-bottom: 0px;
+
+}
+
+.Gianni {
+  padding: 100px 25px 50px;
+}
+
+.html, .css, .js, .java, .resume {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+.linkedin, .twitter, .github, .email {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+.zoompic:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
 }
