@@ -1,0 +1,166 @@
+body {
+  color: #222831;
+  background-color: #e8e8e8;
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  margin: 200px;
+
+}
+
+div {
+  text-align: center;
+}
+
+ul, li{
+  padding: 0;
+  list-style-type: none;
+}
+
+h1, h2 {
+  color: #222831;
+  transition: color .25s;
+  padding: 100px 0 100px 0;
+}
+
+h1:hover, h2:hover {
+  color: #f05454;
+}
+
+a {
+  color: #222831;
+  transition: color .25s;
+}
+
+a:hover {
+  color: #f05454;
+  text-decoration: none;
+}
+
+p {
+  line-height: 60px;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3282b8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f4c75;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #3282b8;
+}
+
+.nav.navbar-nav li a, .navbar-brand {
+  color: #222831;
+  padding-top: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.nav.navbar-nav li a:hover, .navbar-brand:hover {
+  transition: .5s;
+  color: #f05454;
+  text-decoration: none;
+}
+
+.navbar-nav > li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#aboutme {
+
+}
+
+#techstack {
+
+}
+
+#resume {
+
+}
+
+#contactme {
+
+}
+
+.header {
+
+}
+
+.middle {
+
+}
+
+.bottom {
+
+}
+
+.Gianni {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.computer {
+  width: 200px;
+  height: 200px;
+  float: left;
+  transform-origin: 4 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+.cloud-network {
+  width: 200px;
+  height: 200px;
+  float: right;
+  transform-origin: 4 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+.dumbbell {
+  width: 100px;
+  height: 100px;
+  float: left;
+  transform-origin: 4 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+.html, .css, .js, .java {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+.resume {
+  width: 200px;
+  height: 200px;
+  transform-origin: 4 0;
+  transition: transform .25s, visibility .25s ease-in;
+  text-align: center;
+}
+
+.linkedin, .twitter, .github, .email {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  transform-origin: 4 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+.zoompic:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
